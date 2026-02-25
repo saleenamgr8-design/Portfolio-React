@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-// import { Footer } from "../components/Footer";
+import { Footer } from "../components/Footer";
 import { Header } from "../components/Header";
  
 interface Post {
@@ -39,7 +39,7 @@ export const Blog = () => {
     <div>
       <Header />
       <p>Loading...</p>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   ) : (
     <div>
@@ -56,7 +56,7 @@ export const Blog = () => {
           );
         })}
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };
